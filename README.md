@@ -1,5 +1,8 @@
 # tech-quote-of-the-week
 
+[![npm version](https://badge.fury.io/js/tech-quote-of-the-week)](http://badge.fury.io/js/tech-quote-of-the-week) [![CircleCI](https://circleci.com/gh/FullStackBulletin/tech-quote-of-the-week.svg?style=svg)](https://circleci.com/gh/FullStackBulletin/tech-quote-of-the-week) [![codecov](https://codecov.io/gh/FullStackBulletin/tech-quote-of-the-week/branch/master/graph/badge.svg)](https://codecov.io/gh/FullStackBulletin/tech-quote-of-the-week)
+
+
 A library to get every week a new tech quote that might be enjoyed by the fullstack developer.
 
 
