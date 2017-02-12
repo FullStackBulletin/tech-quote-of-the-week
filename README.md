@@ -1,6 +1,6 @@
 # tech-quote-of-the-week
 
-[![npm version](https://badge.fury.io/js/tech-quote-of-the-week)](http://badge.fury.io/js/tech-quote-of-the-week) [![CircleCI](https://circleci.com/gh/FullStackBulletin/tech-quote-of-the-week.svg?style=svg)](https://circleci.com/gh/FullStackBulletin/tech-quote-of-the-week) [![codecov](https://codecov.io/gh/FullStackBulletin/tech-quote-of-the-week/branch/master/graph/badge.svg)](https://codecov.io/gh/FullStackBulletin/tech-quote-of-the-week)
+[![npm version](https://badge.fury.io/js/tech-quote-of-the-week.svg)](http://badge.fury.io/js/tech-quote-of-the-week) [![CircleCI](https://circleci.com/gh/FullStackBulletin/tech-quote-of-the-week.svg?style=shield)](https://circleci.com/gh/FullStackBulletin/tech-quote-of-the-week) [![codecov](https://codecov.io/gh/FullStackBulletin/tech-quote-of-the-week/branch/master/graph/badge.svg)](https://codecov.io/gh/FullStackBulletin/tech-quote-of-the-week)
 
 
 A library to get every week a new tech quote that might be enjoyed by the fullstack developer.
@@ -26,7 +26,7 @@ yarn add tech-quote-of-the-week
 ES5 example:
 
 ```javascript
-var techQuoteOfTheWeek = require('tech-quote-of-the-week');
+var techQuoteOfTheWeek = require('tech-quote-of-the-week').default;
 console.log(techQuoteOfTheWeek()()); // changes every week based on current time
 
 // You can pass a custom week number (from 1 to 53) to get a different quote
@@ -41,6 +41,17 @@ console.log(techQuoteOfTheWeek()()); // changes every week based on current time
 
 // You can pass a custom week number (from 1 to 53) to get a different quote
 console.log(techQuoteOfTheWeek()(23));
+```
+
+Sample output:
+
+```json
+{
+  "id": "6",
+  "text": "One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man",
+  "author": "Elbert Hubbard",
+  "authorDescription": "Author"
+}
 ```
 
 

@@ -1,7 +1,7 @@
 {
   "name": "tech-quote-of-the-week",
   "description": "A set of tech quotes that might be enjoyed by the fullstack developer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
   "module": "src/index.js",
