@@ -55,6 +55,25 @@ Sample output:
 ```
 
 
+## Options
+
+You can pass a custom array of quotes in the initialization function
+in case you want to use the same algorithm in a custom set of quotes.
+
+E.g.
+
+```javascript
+import { techQuoteOfTheWeek } from 'tech-quote-of-the-week';
+
+const quotes = [
+  {"id":"1","text":"Technology is anything that wasn’t around when you were born","author":"Alan Kay","authorDescription":"Computer Scientist"},
+  {"id":"2","text":"Any sufficiently advanced technology is equivalent to magic","author":"Arthur C. Clarke","authorDescription":"Author"}
+];
+
+console.log(techQuoteOfTheWeek(quotes)());
+```
+
+
 ## Contributing
 
 Everyone is very welcome to contribute to this project.
