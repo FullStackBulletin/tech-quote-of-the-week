@@ -50,7 +50,8 @@ Sample output:
   "id": "6",
   "text": "One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man",
   "author": "Elbert Hubbard",
-  "authorDescription": "Author"
+  "authorDescription": "Author",
+  "authorUrl": "https://en.wikipedia.org/wiki/Elbert_Hubbard"
 }
 ```
 
@@ -66,8 +67,8 @@ E.g.
 import { techQuoteOfTheWeek } from 'tech-quote-of-the-week';
 
 const quotes = [
-  {"id":"1","text":"Technology is anything that wasn’t around when you were born","author":"Alan Kay","authorDescription":"Computer Scientist"},
-  {"id":"2","text":"Any sufficiently advanced technology is equivalent to magic","author":"Arthur C. Clarke","authorDescription":"Author"}
+  {"id":"1","text":"Technology is anything that wasn’t around when you were born","author":"Alan Kay","authorDescription":"Computer Scientist", "authorUrl":"https://en.wikipedia.org/wiki/Alan_Kay"},
+  {"id":"2","text":"Any sufficiently advanced technology is equivalent to magic","author":"Arthur C. Clarke","authorDescription":"Author","authorUrl":"https://en.wikipedia.org/wiki/Arthur_C._Clarke"}
 ];
 
 console.log(techQuoteOfTheWeek(quotes)());
