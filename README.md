@@ -1,5 +1,8 @@
 # tech-quote-of-the-week
 
+> [!CAUTION]
+> This repo has been archived in favour of [FullStackBulletin/tech-quotes](https://github.com/FullStackBulletin/tech-quotes)
+
 [![npm version](https://badge.fury.io/js/tech-quote-of-the-week.svg)](http://badge.fury.io/js/tech-quote-of-the-week) [![CircleCI](https://circleci.com/gh/FullStackBulletin/tech-quote-of-the-week.svg?style=shield)](https://circleci.com/gh/FullStackBulletin/tech-quote-of-the-week) [![codecov](https://codecov.io/gh/FullStackBulletin/tech-quote-of-the-week/branch/master/graph/badge.svg)](https://codecov.io/gh/FullStackBulletin/tech-quote-of-the-week)
 
 
